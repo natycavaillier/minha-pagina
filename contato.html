@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natália Dev</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div id="interface">
+        <div class="cabecalho">
+            <img src="images/cabecalho.jpg" id="fotoCabecalho"/>
+            <h1 class="tituloCabecalho">Natália Cavaillier de Abreu</h1>    
+                <nav class="menu">
+                    <ul>
+                        <li><a href="index.html" id="linkSobreMim">Sobre mim</a></li>
+                        <li><a href="contato.html" id="linkContato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        <hr>
+        <div id="contato">
+            <h2 class="tituloContato">Entre em contato</h2>
+            <div class="formulario">
+                <form>
+                        <label for="nome">Nome completo<span style="color: red;"><sup>*</sup></span></label>
+                        <input type="text" id="nome" placeholder="Digite o seu nome completo..." required/>                       
+                        <label for="email">Email<span style="color: red;"><sup>*</sup></span></label>
+                        <input type="email" id="email" placeholder="Digite o seu email..." required/>
+                        <label for="telefone">Número de telefone</label>
+                        <input type="text" id="telefone" placeholder="Exemplo 71 91234-5678" pattern="[0-9]+$"/>
+                        <label for="pergunte">Assunto<span style="color: red;"><sup>*</sup></span></label>
+                        <input type="radio" id="pergunta" name="selecaoAssunto" value="pergunta" required/>
+                        <label for="pergunta" class="radio">Pergunta</label>
+                        <input type="radio" id="comentario" name="selecaoAssunto" value="comentario"/>
+                        <label for="comentario" class="radio">Comentario</label>
+                        <input type="radio" id="outro" name="selecaoAssunto" value="outro"/>
+                        <label for="outro" class="radio">Outro</label>
+                        <input type="text" id="assuntoOutro" placeholder="Digite o assunto desejado..."/>
+                        <label for="mensagem">Mensagem<span style="color: red;"><sup>*</sup></span></label>
+                        <textarea name="mensagem" rows="2" cols="100" required>Olá Natália, tudo bem? Me interessei pelo seu trabalho, por gentileza entre em contato comigo...</textarea>
+                        <p id="observacao">Os campos marcados com * são obrigatórios</p>
+                        <input type="submit" value="Enviar"/>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

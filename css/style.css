@@ -1,0 +1,216 @@
+body {
+    background-image: linear-gradient(to right, white, rgb(58, 255, 173));
+}
+
+div.cabecalho {
+    width: 100%;
+}
+
+img#fotoCabecalho {
+    height: 40px;
+    position: relative;
+    float: left;
+    top: 20px;
+}
+
+h1.tituloCabecalho {
+    display: inline-block;
+    position: relative;
+    top: -0px;
+    padding: 2px 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px rgb(167, 255, 218);
+}
+
+h2 {
+    margin: 20px auto 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgb(211, 248, 233);
+    border-radius: 50px;
+    padding: 3px;
+}
+
+h2.tituloSobreMim {
+    width: 150px;
+}
+
+h2.tituloContato {
+    width: 220px;
+}
+
+article {
+    width: 90%;
+    margin: 0 auto;
+}
+
+article:hover {
+    background-color: rgb(211, 248, 233);
+    transition-duration: 1s;
+}
+
+p#paragrafoSobreMim {
+    text-align: justify;
+    text-indent: 20px;
+    border-left: 3px solid rgb(211, 248, 233);
+    border-right: 3px solid rgb(211, 248, 233);
+    padding: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    display: block;
+    width: 200px;
+    float: right;
+    height: 75px;
+}
+
+ul {
+    list-style: none;
+    margin: 0%;
+    height: 100%;
+    display: block;
+}
+
+li {
+    border-radius: 50px;
+    padding: 2px;
+    text-align: center;
+    height: 42%;
+    margin-top: 5px;
+    background-color: rgb(167, 255, 218);
+}
+
+li:hover {
+    background-color: rgb(0, 212, 124);
+    transition-duration: 1s;
+}
+
+a {
+    top: 7px;
+    text-decoration: none;
+    position: relative;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+a#linkSobreMim {
+    padding: 8px 40px;
+}
+
+a#linkContato {
+    padding: 8px 52px;
+}
+
+a:hover {
+    color: white;
+    transition-duration: 1s;
+}
+
+table {
+    border-collapse: collapse;
+    margin: -5px auto 50px auto;
+    width: 90%;
+    text-align: center;
+    padding: 4px;
+}
+
+tr:hover {
+    background-color: rgb(211, 248, 233);
+}
+
+th,td {
+    border-bottom: 3px solid rgb(211, 248, 233);
+    padding: 10px 5px;
+}
+
+td {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+th {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*PERSONALIZAÇÃO DA ÁREA DE CONTATO*/
+div.formulario {
+    background-color: rgb(211, 248, 233);
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 15pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px auto;
+    width: 90%;
+    
+}
+
+label {
+    padding-top: 10px 10px 0;
+    display: block;
+}
+
+label.radio {
+    padding: 10px 0px;
+    margin: 10px 0;
+    font-size: 13pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+}
+
+input {
+    border-style: none;
+}
+
+input[type=text], input[type=email] {
+    width: 100%;
+    padding: 10px 0 10px 20px;
+    margin: 10px 0;
+    font-size: 13pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    border-radius: 50px;
+}
+
+input[type=radio] {
+    padding: 10px 0;
+    margin: 10px;
+    font-size: 13pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+}
+
+input#assuntoOutro {
+    width: 20%;
+    display: inline-block;
+}
+
+input[type=submit] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 212, 124);
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(42, 212, 142);
+}
+
+textarea {
+    text-indent: 3px;
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    font-size: 13pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    border-style: none;
+}
+
+p#observacao {
+    color: red;
+    font-size: 12px;
+}
