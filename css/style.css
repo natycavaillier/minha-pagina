@@ -129,7 +129,7 @@ a#linkContato {
     padding: 8px 52px;
 }
 
-a#linkRodape {
+a.linkRodape {
     position: static;
 }
 
@@ -260,4 +260,11 @@ footer p{
 hr {
     border: 1px solid white;
     border-radius: 50px;
+}
+
+img.iconeLink {
+    position: relative;
+    height: 13pt;
+    top: 3px;
+    padding-right: 1px;
 }
